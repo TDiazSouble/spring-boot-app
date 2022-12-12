@@ -1,11 +1,3 @@
-minikube start
-
-echo ---------------------------------------
-
-echo getting files from the repo
-
-#git clone https://github.com/TDiazSouble/spring-boot-app
-
 echo ---------------------------------------
 
 echo deleting old deployments
