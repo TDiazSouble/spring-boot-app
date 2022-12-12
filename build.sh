@@ -20,7 +20,7 @@ echo ---------------------------------------
 
 echo "Building docker image"
 
-(cd spring-boot-app;docker build -t spring-app-image:springboot .)
+docker build -t spring-app-image:springboot .
 
 echo ---------------------------------------
 
