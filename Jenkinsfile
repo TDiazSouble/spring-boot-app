@@ -14,7 +14,7 @@ podTemplate(yaml: '''
         - cat
         ttyEnabled: true
       - name: kubectl
-    i   mage: bitnami/kubectl:1.16.3
+        image: bitnami/kubectl:1.16.3
         command:
         - cat
         tty: true
